@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Land Registration System using Blockchain</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body align="center">
+    <div class="container" style="width: 650px;">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <h1 class="text-center">Land Registration</h1>
+          <hr/>
+          <br/>
+          <center>
+            <button type="button" onClick="App.enableRegisterUser();" class="btn btn-primary"> Register User </button>
+
+            <button type="button" onClick="App.enableRegisterProperty();" class="btn btn-primary"> Register Land </button>
+
+            <button type="button" onClick="App.enableTransferProperty();" class="btn btn-primary"> Transfer Land </button>
+
+            <button type="button" onClick="App.enableSearchProperty();" class="btn btn-primary"> Search Land </button>
+          </center>
+        </div>
+
+        <div id="registerUserForm">
+          <form id="rUForm">
+            <table class="table">
+              <tbody id="rU">
+              
+              </tbody>
+            </table>
+          </form>
+        </div>
+
+        <div id="registerPropertyForm">
+          <form id="rPForm">
+            <table class="table">
+              <tbody id="rP">
+              
+              </tbody>
+            </table>
+          </form>
+        </div>
+
+        <div id="transferPropertyForm" >
+          <form id="tPForm">
+            <table class="table">
+              <tbody id="tP">
+              
+              </tbody>
+            </table>
+          </form>
+        </div>
+
+        <div id="displayProperty">
+            <table align="center">
+              <tbody id="dP">
+              
+              </tbody>
+            </table>
+          <table class="table">
+            <tbody id="out">
+              
+            </tbody>
+          </table>
+          <table class="table" id="out2">
+            
+          </table>
+        </div>
+
+      </div>
+
+      <p id="accountAddress" class="text-center"></p>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
