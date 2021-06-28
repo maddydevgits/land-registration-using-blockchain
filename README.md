@@ -1,6 +1,6 @@
-# Property Registration
+# Land Registration using Blockchain
 
-## [Demonstration Video](https://drive.google.com/drive/u/0/folders/1ZeENGkaVPiemtvxEbmJvf3Ph-pPk9Qro)
+
 
 #### Dependencies                                                                                                                 
 - ##### [Node Packet Manager(NPM)](http://nodejs.org/en/)                                                                                                                                                     
@@ -13,7 +13,7 @@
 #### Run the Project
 - ##### Step 1. Clone the project
 ```
-git clone https://github.com/thehumblefool/property-registration
+git clone https://github.com/madblocksgit/land-registration-using-blockchain.git
 ```
 
 - ##### Step 2. Install dependencies
